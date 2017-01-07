@@ -6,9 +6,11 @@ Make a scalable, single page blog app, and make it responsive, BEAUTIFUL and/or 
 ```
 git clone git@github.com:lisabronwyn/envious-parakeet-evolved
 npm i
-npm run build
 npm start
 ```
+
+Build JS after modifications:
+`npm run build`
 
 Local DB server:
 1. [install MongoDB](https://docs.mongodb.com/master/tutorial/install-mongodb-on-os-x/)

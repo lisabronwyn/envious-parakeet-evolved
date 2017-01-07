@@ -1,11 +1,13 @@
+'use strict';
 
-function favicorn (options) {
-  let icon, context;
+function favicorn(options) {
+  var icon = void 0,
+      context = void 0;
   icon = document.createElement('canvas'), icon.width = icon.height = 64, context = icon.getContext('2d');
 
   context.beginPath();
-  context.rect(4,4,60,60);
-  context.fillStyle = (options && options.color) ? options.color : '#'+Math.floor(Math.random()*16777215).toString(16);
+  context.rect(4, 4, 60, 60);
+  context.fillStyle = options && options.color ? options.color : '#' + Math.floor(Math.random() * 16777215).toString(16);
   context.fill();
 
   // UNCOMMENT TO VIEW LARGER VERSION OF ICON IN DOM. Can be used to render logo/favicon dynamically from path.
