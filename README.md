@@ -1,6 +1,19 @@
 ## Description
 Make a scalable, single page blog app, and make it responsive, BEAUTIFUL and/or INNOVATIVE!
 
+## Installation
+
+```
+git clone git@github.com:lisabronwyn/envious-parakeet-evolved
+npm i
+npm run build
+npm start
+```
+
+Local DB server:
+1. [install MongoDB](https://docs.mongodb.com/master/tutorial/install-mongodb-on-os-x/)
+2. `brew services start mongo`
+
 ## Context
 Learners research award winning, innovative blog designs and use wireframing to pre-visualize their app and put some thought into their desired user experience.  Learners will gain practice templating to render blog posts as different page views of a single page app. Learners will gain practice setting up a server using Express and/or Express-generator, and templating using Pug (or Handlebars, or equivalent).
 
